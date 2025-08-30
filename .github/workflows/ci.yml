@@ -28,7 +28,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
-          external_repository: javedali-dev/javedali-dev.github.io.github.io
+          external_repository: javedali-dev/javedali-dev.github.io
           publish_dir: ./public
           #   keep_files: true
           user_name: javedali-dev
